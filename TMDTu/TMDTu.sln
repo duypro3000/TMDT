@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMDTu", "TMDTu\TMDTu.csproj", "{1D4E23AF-F781-441F-ACE6-AA32C6D10102}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuoiKi.Tests", "CuoiKi.Tests\CuoiKi.Tests.csproj", "{3A4820D1-93FC-42FA-B939-8A36FDF933BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1D4E23AF-F781-441F-ACE6-AA32C6D10102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4E23AF-F781-441F-ACE6-AA32C6D10102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4E23AF-F781-441F-ACE6-AA32C6D10102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4820D1-93FC-42FA-B939-8A36FDF933BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4820D1-93FC-42FA-B939-8A36FDF933BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4820D1-93FC-42FA-B939-8A36FDF933BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4820D1-93FC-42FA-B939-8A36FDF933BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

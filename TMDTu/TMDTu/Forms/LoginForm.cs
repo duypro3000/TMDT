@@ -19,9 +19,9 @@ namespace TMDTu.Forms
         private User _currentUser;
         public LoginForm()
         {
+            InitializeComponent();
             _authService = new AuthService(new AppDbContext()); // Cung cấp AppDbContext
             pnlCaptcha.Visible = false;
-            InitializeComponent();
         }
 
         private void LoginForm_Load(object sender, EventArgs e)

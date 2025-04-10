@@ -183,6 +183,12 @@
     <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="HassPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HassPassword.Designer.cs">
+      <DependentUpon>HassPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\20250410143038_InitialCreate.cs" />
     <Compile Include="Migrations\20250410143038_InitialCreate.Designer.cs">
       <DependentUpon>20250410143038_InitialCreate.cs</DependentUpon>
@@ -194,6 +200,9 @@
     <Compile Include="Services\AuthService.cs" />
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HassPassword.resx">
+      <DependentUpon>HassPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

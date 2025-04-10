@@ -65,8 +65,8 @@ namespace TMDTu.Forms
                 }
 
                 MessageBox.Show("Đăng nhập thành công!");
-                //var productListForm = new ProductListForm(user);
-                //productListForm.Show();
+                var productListForm = new ProductListForm(user);
+                productListForm.Show();
                 this.Hide();
             }
             catch (Exception ex)

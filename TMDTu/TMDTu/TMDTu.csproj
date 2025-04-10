@@ -211,6 +211,10 @@
     <Compile Include="Migrations\20250410143038_InitialCreate.Designer.cs">
       <DependentUpon>20250410143038_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20250410154058_ProductOrder.cs" />
+    <Compile Include="Migrations\20250410154058_ProductOrder.Designer.cs">
+      <DependentUpon>20250410154058_ProductOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\OrderDetail.cs" />
